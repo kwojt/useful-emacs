@@ -1,3 +1,4 @@
+
 ;; Setting up paths
 (defun set-exec-path-from-shell-PATH ()
   (let ((path-from-shell (replace-regexp-in-string
@@ -12,6 +13,9 @@
 
 ;; Replacing default hook
 (defun my-go-mode-hook ()
+
+  ;; Use goimports instead of go-fmt
+  (setq gofmt-command "goimports")
 
   ;; Call Gofmt before saving
   (add-hook 'before-save-hook 'gofmt-before-save)
