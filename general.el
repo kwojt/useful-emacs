@@ -13,4 +13,10 @@
 ;; Electric-pair-mode always on
 (electric-pair-mode 1)
 
+;; Folding
+(add-hook 'prog-mode-hook 'hs-minor-mode)
+(global-set-key (kbd "<backtab>") 'fold-dwim-toggle)
+;;(global-set-key (kbd "<M-f7>")    'fold-dwim-hide-all)
+;;(global-set-key (kbd "<S-M-f7>")  'fold-dwim-show-all)
+
 
