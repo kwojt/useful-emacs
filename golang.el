@@ -1,4 +1,3 @@
-
 ;; Setting up paths
 (defun set-exec-path-from-shell-PATH ()
   (let ((path-from-shell (replace-regexp-in-string

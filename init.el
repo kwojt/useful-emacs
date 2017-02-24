@@ -8,6 +8,7 @@
 (load-file "~/.emacs.d/general.el")
 (load-file "~/.emacs.d/helm.el")
 (load-file "~/.emacs.d/golang.el")
+(load-file "~/.emacs.d/web.el")
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
