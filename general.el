@@ -26,8 +26,7 @@
       '("*compilation*"))
 (setq special-display-function
       (lambda (buffer &optional args)
-        (split-window-below)
-		(other-window)
+        (split-window)
         (switch-to-buffer buffer)
         (get-buffer-window buffer 0)))
 
