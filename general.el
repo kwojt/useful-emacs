@@ -8,6 +8,9 @@
 (setq-default indent-tabs-mode t)
 (setq-default tab-width 4)
 
+;; Enable global Flycheck
+(add-hook 'after-init-hook #'global-flycheck-mode)
+
 ;; Ace-window
 (global-set-key (kbd "M-p") 'ace-window)
 
