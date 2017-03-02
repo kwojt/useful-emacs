@@ -1,3 +1,11 @@
+;;; general.el --- General kwojt's setting for emacs
+;;  Copyright (C) 2017 kwojt
+
+;;; Commentary:
+;; No comments.  Just use it.  Flycheck requires it, that's
+;; why it's here.
+
+;;; Code:
 ;; GUI settings
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
 (if (fboundp 'menu-bar-mode) (menu-bar-mode -1))
@@ -10,6 +18,9 @@
 
 ;; Enable global Flycheck
 (add-hook 'after-init-hook #'global-flycheck-mode)
+
+;; Insert newline on the end of the file on save
+(setq-default require-final-newline t)
 
 ;; Ace-window
 (global-set-key (kbd "M-p") 'ace-window)
