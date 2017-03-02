@@ -7,6 +7,7 @@
 (load-file "~/.emacs.d/fold-dwim.el")
 (load-file "~/.emacs.d/general.el")
 (load-file "~/.emacs.d/helm.el")
+(load-file "~/.emacs.d/flycheck.el")
 (load-file "~/.emacs.d/golang.el")
 (load-file "~/.emacs.d/web.el")
 
