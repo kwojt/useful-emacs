@@ -19,6 +19,10 @@
 ;; Enable global Flycheck
 (add-hook 'after-init-hook #'global-flycheck-mode)
 
+;; Enable global Yasnippet
+(require 'yasnippet)
+(yas-global-mode 1)
+
 ;; Insert newline on the end of the file on save
 (setq-default require-final-newline t)
 
