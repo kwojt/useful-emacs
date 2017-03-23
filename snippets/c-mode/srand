@@ -1,0 +1,4 @@
+# key: srand
+# name: srand(time(NULL))
+# --
+srand(time(NULL));

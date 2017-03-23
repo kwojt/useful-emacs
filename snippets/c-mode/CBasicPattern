@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: C basic pattern
+# key: cbase
+# --
+#include <stdio.h>
+$1
+int main(int argc, char *argv[]) {
+
+	$0
+
+	return 0;
+}
