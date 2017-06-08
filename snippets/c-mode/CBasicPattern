@@ -3,6 +3,7 @@
 # key: cbase
 # --
 #include <stdio.h>
+#include <stdlib.h>
 $1
 int main(int argc, char *argv[]) {
 

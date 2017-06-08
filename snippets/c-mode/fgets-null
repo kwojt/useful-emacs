@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: fgets with nul terminator
+# key: fgets
+# --
+fgets(${1:buffer}, ${2:1024}, ${3:stdin});
+$1[strlen($1)] = '\0';$0
