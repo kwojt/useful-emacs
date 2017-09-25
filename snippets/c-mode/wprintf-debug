@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: widechar debug printf
+# key: wdbg
+# --
+wprintf(L"\n#####DBG$1#\n");$0

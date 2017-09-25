@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Printf debug
+# key: dbg
+# --
+printf("\n#####DBG$1#\n");$0

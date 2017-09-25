@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: non-breakable space
+# key: nb
+# --
+&nbsp;
