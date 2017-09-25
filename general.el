@@ -61,3 +61,15 @@
 
 ;; ZSH script opens in sh-mode
 (add-to-list 'auto-mode-alist '("\\.zsh\\'" . sh-mode))
+
+;; Global company-mode
+(add-hook 'after-init-hook 'global-company-mode)
+(setq company-minimum-prefix-length 1)
+(setq company-idle-delay 0.1)
+
+;; Revert without confirmation
+;; Source: http://www.emacswiki.org/emacs-en/download/misc-cmds.el
+(defun revert-buffer-no-confirm ()
+    "Revert buffer without confirmation."
+    (interactive)
+    (revert-buffer :ignore-auto :noconfirm))

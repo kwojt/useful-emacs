@@ -55,6 +55,9 @@
  '(nrepl-message-colors
    (quote
 	("#dc322f" "#cb4b16" "#b58900" "#546E00" "#B4C342" "#00629D" "#2aa198" "#d33682" "#6c71c4")))
+ '(package-selected-packages
+   (quote
+	(ng2-mode tide npm-mode js2-mode company-tern tern yasnippet web-mode vlf solarized-theme simple-httpd scss-mode sass-mode s php-mode multiple-cursors markdown-mode magit lorem-ipsum irony-eldoc helm-package helm-git helm-descbinds go-complete go-autocomplete flycheck exec-path-from-shell dash-functional company-irony autopair ace-window)))
  '(pos-tip-background-color "#073642")
  '(pos-tip-foreground-color "#93a1a1")
  '(smartrep-mode-line-active-bg (solarized-color-blend "#859900" "#073642" 0.2))
